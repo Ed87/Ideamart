@@ -57,8 +57,5 @@
     <Compile Include="Ussd\UssdResponse.cs" />
     <Compile Include="Ussd\UssdStatusReponse.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
