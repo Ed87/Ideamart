@@ -41,6 +41,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sms\ReceiveSmsObject.cs" />
+    <Compile Include="Sms\SmsAPI.cs" />
+    <Compile Include="Sms\SmsRequest.cs" />
+    <Compile Include="Sms\SmsStatusResponse.cs" />
+    <Compile Include="Subscription\QuerySubscription.cs" />
+    <Compile Include="Subscription\SubscriptionAPI.cs" />
+    <Compile Include="Subscription\SubscriptionNotification.cs" />
+    <Compile Include="Subscription\SubscriptionRequest.cs" />
+    <Compile Include="Subscription\SubscriptionResponse.cs" />
+    <Compile Include="Subscription\SubscriptionStatusRequest.cs" />
+    <Compile Include="Subscription\SubscriptionStatusResponse.cs" />
+    <Compile Include="Ussd\UssdAPI.cs" />
+    <Compile Include="Ussd\UssdRequest.cs" />
+    <Compile Include="Ussd\UssdResponse.cs" />
+    <Compile Include="Ussd\UssdStatusReponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
