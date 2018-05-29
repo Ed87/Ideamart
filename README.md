@@ -28,7 +28,7 @@ This monetizes your app with micro-payments. You can retrieve the account balanc
 ### Install
 Available as a NuGet package. You can install it using the NuGet Package Console windows;
 ```
-PM> Install-Package Ideamart -Version 1.1.0
+PM> Install-Package Ideamart -Version 1.3.0
 ```
 
 ## Usage
